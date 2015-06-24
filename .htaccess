@@ -1,0 +1,4 @@
+ErrorDocument 404 /index.html
+Redirect 301 /contacto.html http://www.codigorapido.com/index.html#contact
+Redirect 301 /sobre.html http://www.codigorapido.com/index.html#services
+Redirect 301 /mision_vision.html http://www.codigorapido.com/index.html#services

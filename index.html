@@ -1,106 +1,291 @@
-<!DOCTYPE html>
-<html lang="es">
+﻿<html>
 <head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-	<title>Código rápido</title>
-	<link rel="short icon" href="img/favicon.png">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-responsive.css">
-	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">
-		$(document).ready(function($) {
-			$('.carousel').carousel({
-				interval: 3500
-			});
-		});
-	</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Nos dedicamos a desarrollar software web. Nos ubicamos en Toluca, somos Código rápido." />
+    <meta name="author" content="Código rápido - Eduardo Hernandez" />
+    <title>Código rápido</title>
+    <link rel="short icon" href="assets/img/favicon.png">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 <body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container-fluid" style="width: auto;">
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</a>
-				<a class="brand" href="http://www.codigorapido.com.mx"><span style="color: #16CA02; font-weight:bold">&lt; Código rápido /&gt;</span></a>
-				<div class="nav-collapse collapse">
-					<ul class="nav pull-right">
-						<li class="active"><a href="index.html">Inicio</a></li>
-						<li class="divider-vertical"></li>
-						<li><a href="mision_vision.html">Misión y visión</a></li>
-						<li class="divider-vertical"></li>
-						<li><a href="contacto.html">Contacto</a></li>
-						<li class="divider-vertical"></li>
-						<li><a href="sobre.html">Sobre nosotros</a></li>
-					</ul>
-				</div><!-- /.nav-collapse -->
-			</div>
-		</div><!-- /navbar-inner -->
-	</div>
-	<div class="container-fluid">
-		<div class="hero-unit">
-			<h1>Código rápido. <br class="visible-phone"/><small>Somos artistas del teclado</small></h1>
-			<cite>
-				"La forma como abordamos el diseño es tratando de hacer lo máximo con lo mínimo. Nos consume el ansia de desarrollar una solución que sea muy sencilla, porque como seres físicos comprendemos la claridad". Jonathan Ive
-			</cite>
-		</div>
-		<div class="row-fluid">
-			<div class="span6">
-				<div id="slideshow" class="carousel slide">
-					<div class="carousel-inner">
-						<div class="item">
-							<img src="img/html.png" alt="HTML5">
-							<div class="carousel-caption">	
-								<p>Uso de HTML5</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="img/css.png" alt="CSS3">
-							<div class="carousel-caption">
-								<p>Estilos versión CSS3</p>
-							</div>
-						</div>
-						<div class="item active">
-							<img src="img/php.png" alt="PHP">
-							<div class="carousel-caption">
-								<p>Sistemas basados en PHP y MYSQL</p>
-							</div>
-						</div>
-					</div>
-					<a class="left carousel-control" href="#slideshow" data-slide="prev">‹</a>
-					<a class="right carousel-control" href="#slideshow" data-slide="next">›</a>
-				</div>
-			</div>
-			<div class="span6 text-center">
-				<h3><span style="color: #16CA02; font-weight:bold">&lt; Código rápido /&gt;</span></h3>
-				<p class="text-justify">
-					En Código rápido nos dedicamos a hacer de su navegación en internet la mejor experiencia web que haya tenido.
-					<br />
-					Ofrecemos servicios de desarrollo web, los cuales incluyen:
-					<br />
-					<br />
-					<span style="color: #16CA02">&gt;&gt;</span> Diseño y mantenimiento de páginas web.
-					<br />
-					<span style="color: #16CA02">&gt;&gt;</span> Desarrollo de sistemas web.
-					<br />
-					<br />
-					Nos gusta hacerle honor a nuestro nombre por lo cual nuestros desarrollos se hacen a gran velocidad sin mermar el funcionamiento. Usted estará satisfecho de habernos contactado porque otra característica nuestra es mantenernos actualizados en las tendencias de la red, ofreciendo siempre lo más actual y moderno.
-					<br />
-					<br />
-					Los beneficios de tener su página o sistema en línea van desde el marketing online hasta poder llevar el control de los movimientos de su empresa. No importa si es un sistema integral o una página web personal nosotros tendremos la solución.
-					<br />
-					<br />
-					Elíjanos y sea parte de <span style="color: #16CA02">Código rápido</span>.
-				</p>
-			</div>
-		</div>
-		<footer class="text-center">
-			<span style="color: #16CA02">&copy; <a href="http://www.codigorapido.com.mx" style="color: #16CA02" title="Ir a Código rápido">Código rápido</a> || 2014</span>
-		</footer>
-	</div>	
+    <div id="home">
+        <div class="overlay">
+            <!-- overylay class usage -->
+            <div class="container">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <h1>CÓDIGO RÁPIDO</h1>
+                    <h2>Piénsalo, nosotros lo hacemos</h2>
+                    <h3>Somos artistas del teclado.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--HOME SECTION END  -->
+    <div id="nav" class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png" alt="logo de código rápido" class="img-responsive" style="margin-top: 0.8em" />
+                </a>
+            </div>
+            <div class="navbar-collapse collapse navbar-right scroll-me">
+                <ul class="nav navbar-nav ">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#works">Experiencias</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- NAVBAR CODE END -->
+    <section id="services">
+        <div class="container">
+            <div class="row text-center pad-bottom">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <h2 class="head-set">NUESTROS SERVICIOS</h2>
+                    <p>
+                        Para su comodidad contamos con los siguientes servicios.
+                    </p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <i class="fa fa-desktop fa-5x"></i>
+                    <i class="fa fa-laptop fa-5x"></i>
+                    <i class="fa fa-mobile fa-5x"></i>
+                    <h4 class="head-set">PÁGINAS WEB</h4>
+                    <p>
+                        Diseñamos páginas web totalmente responsivas, lo cual significa que será visualizable en cualquier tamaño de pantalla.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <i class="fa fa-code-fork fa-5x"></i>
+                    <h4 class="head-set">SISTEMAS WEB</h4>
+                    <p>
+                        Desarrollo de sistemas de información automatizados con los cuales mejora la eficiencia de sus labores.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <i class="fa fa-globe  fa-5x"></i>
+                    <h4 class="head-set">SEO</h4>
+                    <p>
+                        Posicionamos su página en los buscadores, esto permite que su página web este dentro de los primeros resultados de búsqueda.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SERVICES SECTION END  -->
+    <div class="parallax-like">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="margin-bottom:3rem">
+                        <div>
+                            <strong>Es un placer que visite Código rápido</strong>
+                            <p class="text-justify">
+                                En 2014 se conjunta Código rápido como una empresa de desarrollo web 100% mexicana. Está impulsada por el principal fruto de México: la juventud, por lo cual usted siempre tendrá ideas innovadoras.
+                            </p>
+                            <p class="text-justify">
+                                En la elaboración de códigos para el desarrollo web se refleja nuestro nombre y principal característica, la rapidez. Esto con el fin de llevar a usted el mejor servicio y que se ajuste a sus necesidades. Nuestra principal política es que la calidad no lleva la contraria a la rapidez y que, conjuntando éstas, se da garantía de satisfacción.
+                            </p>
+                            <p class="text-justify">
+                                Integramos a nuevos talentos que tengan la misma visión y compartan objetivos con nosotros.
+                            </p>
+                            <p class="text-justify">
+                                La expansión se hará gradualmente siempre garantizando la calidad de nuestro trabajo. Así que cuando usted vea o escuche "Código rápido" sabrá que está ante una empresa que le brinda seguridad y confianza.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div>
+                            <strong>Misión</strong>
+                            <p class="text-justify">
+                                Somos una empresa dedicada al desarrollo web con la finalidad de ofrecer servicios de calidad y rapidez, agregando valor a nuestros clientes al realizar proyectos eficientes adaptados a sus necesidades.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div>
+                            <strong>Visión</strong>
+                            <p class="text-justify">
+                                Ser una empresa líder en desarrollo web y formar parte de la alta gama de desarrolladores en el medio manteniendo siempre nuestro paradigma de rapidez.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2" style="margin-top:3rem">
+                        <div class="text-center">
+                            <div class="visible-md visible-lg">
+                                <i class="fa fa-html5 fa-2x"></i>
+                                <i class="fa fa-css3 fa-2x"></i>
+                                <i class="fa fa-file-code-o fa-2x"></i>
+                                <i class="fa fa-database fa-2x"></i>
+                                <i class="fa fa-heart fa-2x"></i>
+                            </div>
+                            <div class="visible-xs visible-sm">
+                                <i class="fa fa-html5 fa-1x"></i>
+                                <i class="fa fa-css3 fa-1x"></i>
+                                <i class="fa fa-file-code-o fa-1x"></i>
+                                <i class="fa fa-database fa-1x"></i>
+                                <i class="fa fa-heart fa-1x"></i>
+                            </div>
+                            <p>
+                                Trabajamos con HTML5, CSS3, Javascript, PHP, MySQL y mucho AMOR.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PARALLAX LIKE / STATS SECTION END  -->
+    <section id="works">
+        <div class="container">
+            <div class="row text-center pad-bottom">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <h2 class="head-set">EXPERIENCIAS</h2>
+                    <p>
+                        Les compartimos está sección con los trabajos que hemos realizado.
+                    </p>
+                </div>
+            </div>
+            <div class="row text-center portfolio-item">
+                <div class="col-md-4 col-sm-4 ">
+                    <div class="alert alert-success">
+                        <a href="http://www.tallerfranciscolimon.com">
+                            <img src="assets/img/img-1.jpg" class="img-responsive " alt="" />
+                        </a>
+                        <h3>Taller Francisco Limón</h3>
+                        <h5>Galería de arte</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--WORKS / PORTFOLIO SECTION END  -->
+    <section id="blog">
+        <div class="bg">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <h1>Blog</h1>
+                            <i class="fa fa-cog fa-spin" style="font-size: 10rem"></i>
+                            <p>En constucción</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG SECTION END-->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
+                    <h2 class="head-set">CONTÁCTANOS</h2>
+                    <p>
+                        Hacemos énfasis en la constante comunicación para ofrecerle el mejor servicio. Nos interesa saber lo que usted está pensando acerca del servicio que le ofrecemos, así como también estamos abiertos a recibir sugerencias.
+                    </p>
+                    <br />
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1" src="">
+                    <form class="form-horizontal" method="post" name="contacto" id="contacto" action="correo.php">
+                        <fieldset>
+                            <legend>Envíanos un correo</legend>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon1">
+                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                    </span>
+                                    <input type="text" name="name" id="name" class="form-control" aria-describedby="basic-addon1" placeholder="Nombre" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon1">
+                                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                                    </span>
+                                    <input type="email" name="email" id="email" class="form-control" aria-describedby="basic-addon1" placeholder="Correo electrónico" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon1">
+                                        <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+                                    </span>
+                                    <input type="text" name="phone" id="phone" class="form-control" aria-describedby="basic-addon1" placeholder="Teléfono" required>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon1">
+                                        <span class="glyphicon glyphicon-comment" aria-hidden="true" ></span>
+                                    </span>
+                                    <textarea name="message" id="message" class="form-control" aria-describedby="basic-addon1" placeholder="Comentario" required></textarea>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col-lg-12" id="result" style="display: none"></div>
+                            <div class="form-group">
+                                <div class="input-group pull-right">
+                                    <button type="submit" id="enviar" class="btn btn-success" disabled="disabled">Enviar</button>
+                                    <button type="reset" class="btn btn-default">Cancelar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 col-xs-12" style="margin-bottom:1.5rem">
+                    <i class="fa fa-facebook-square fa-2x">
+                        <a href="https://www.facebook.com/codigorapido" target="_blank"><h4 style="display: inline-block">/codigorapido</h4></a>
+                    </i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-12" style="margin-bottom:1.5rem">
+                    <i class="fa fa-twitter-square fa-2x">
+                        <a href="https://www.twitter.com/codigorapido" target="_blank"><h4 style="display: inline-block">@codigorapido</h4></a>
+                    </i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-12" style="margin-bottom:1.5rem">
+                    <i class="fa fa-send fa-2x">
+                        <h4 style="display: inline-block">(722) 659 - 3217</h4>
+                    </i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-12" style="margin-bottom:1.5rem">
+                    <i class="fa fa-envelope fa-2x">
+                        <h4 style="display: inline-block">codrapmexico@gmail.com</h4>
+                    </i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        Copyright © Código rápido  || 2015</a>
+    </footer>
+    <script src="assets/js/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrapValidator.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/efects.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,214 @@
+﻿
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+   
+========================================================  */
+
+
+
+/*================================
+    GENERAL STYLES
+==================================*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.head-set {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+/*================================
+    NAVBAR STYLES
+==================================*/
+.navbar-default {
+    background-color: rgb(00, 00, 00);
+    border-color: transparent;
+    border-radius: 0;
+    color: #fff;
+    z-index: 1030;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:active {
+    color: #16CA02;
+}
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:#fff;
+}
+
+.navbar-fixed-top{
+    background: rgba(00,00,00,0.8);
+}
+
+@media (max-width: 320px) {
+    .navbar-default {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+/*================================
+    HOME SECTION STYLES
+==================================*/
+
+/*STYLE OF BACKGROUND IMAGE*/
+#home {
+    background: url(../img/keyboard-bg.jpg) no-repeat center center; /*Full Witdth background image*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    min-height: 600px;
+}
+/*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
+#home .overlay {
+    padding-top: 90px;
+    background-color: rgba(17, 202, 02,0.65); /*.65 opacity of the color so that background image is visible*/
+    min-height: 600px;
+    color: #fff;
+}
+
+#home h1 {
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 70px;
+    font-family: 'Browallia New';
+}
+
+@media (min-width: 767px) {
+    #home h1 {
+        padding-top: 80px;
+        font-weight: 900;
+        font-size: 100px;
+    }
+}
+/*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
+
+/*CLASS TO FORMAT TEXT*/
+.p-cls {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+/*======================================
+    PARALLAX LIKE / STATS SECTION STYLES
+=========================================*/
+
+.parallax-like {
+    background: url(../img/portfolio-02.jpg) no-repeat center center; /* DEFINE IMAGE PATH CAREFULLY*/
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .parallax-like .overlay {
+        min-height: 200px;
+        background-color: rgba(17, 202, 02,0.75); /*.75 opacity of the color so that background image is visible*/
+        font-size: 40px;
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .parallax-like .overlay p{
+        font-size: 1.9rem;
+    }
+
+/*================================
+    PORTFOLIO / WORK SECTION STYLES
+==================================*/
+.portfolio-item img:hover { /* POSTFOLIO IMAGE BIG ON HOVER */
+    cursor: pointer;
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    z-index: 1;
+}
+
+/*================================
+    VIDEO SECTION STYLES
+==================================*/
+#blog {
+    color: #454545;
+    text-align: center;
+}
+    
+    #blog .bg {
+        background-image: url(../img/contemporary_china.png);
+    }
+
+    #blog .overlay {
+        background-color: rgba(17, 202, 02,0.45);
+        min-height: 500px;
+    }
+
+    #blog h1 {
+        padding-top: 80px;
+        font-size: 40px;
+        font-weight: 900;
+        padding-bottom: 30px;
+    }
+/*================================
+    CLIENTS SECTION STYLES
+==================================*/
+#clients {
+    background-color:#f4f4f4;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+    #clients img {
+        opacity:0.5;
+        cursor:pointer;
+    }
+        #clients img:hover {
+            opacity:1;
+        }
+/*================================
+    FOOTER SECTION STYLES
+==================================*/
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgb(17, 202, 02);
+    color: #fff;
+}
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
