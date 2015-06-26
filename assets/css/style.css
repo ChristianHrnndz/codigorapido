@@ -1,4 +1,4 @@
-﻿
+
 /*=============================================================
     Authour URL: www.designbootstrap.com
 
@@ -161,7 +161,7 @@ section {
     VIDEO SECTION STYLES
 ==================================*/
 #blog {
-    color: #454545;
+    color: #ffffff;
     text-align: center;
 }
     
@@ -170,7 +170,7 @@ section {
     }
 
     #blog .overlay {
-        background-color: rgba(17, 202, 02,0.45);
+        background-color: rgba(69, 69, 69,0.5);
         min-height: 500px;
     }
 
@@ -179,6 +179,18 @@ section {
         font-size: 40px;
         font-weight: 900;
         padding-bottom: 30px;
+    }
+
+    #blog .notice {
+        color: #454545;
+        border-radius: 0.4rem;
+        background: #ffffff;
+        margin: 1rem;
+    }
+
+    #blog hr{
+        background-color: rgba(17, 202, 02, 0.7);
+        height: 0.3rem;
     }
 /*================================
     CLIENTS SECTION STYLES
